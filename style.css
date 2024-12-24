@@ -1,0 +1,78 @@
+body{
+    background-color: #f8f8f8;
+    color: rgb(0, 123, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.generator{
+    background-color: #f5f5f5;
+    width: 250px;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius:10px;
+
+}
+div.passwprd{
+    display: grid;
+    grid-template-columns: auto min-content;
+    border-radius: 10px;
+    overflow: hidden;
+}
+div.password input {
+    padding: 7px 10px;
+    background-color: #ddd;
+    border: none;
+    color:#333;
+
+}
+button{
+    background-color: #4CAF50;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border:0;
+    border-radius: 10px;
+
+}
+div.password button{
+    border-radius: 0;
+}
+div.range{
+    margin : 10px  0;
+    display: grid;
+    grid-template-columns: auto min-content;
+
+}
+div.range span { 
+    background-color: #ddd; 
+    padding: 10px; 
+    margin-left: 20px; 
+    min-width: 30px; 
+    text-align: center; 
+    border-radius: 10px; 
+} 
+div.options { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px; 
+} 
+  
+div.options label { 
+    display: block; 
+    background-color: #ddd; 
+    padding: 10px; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    font-family: sans-serif; 
+} 
+  
+button.generate { 
+    width: 100%; 
+    margin-top: 10px; 
+    padding: 10px; 
+} 
+  
+h1 { 
+    text-align: center; 
+    color: #4caf50; 
+}
